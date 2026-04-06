@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import {useROuter} from "next/navigation"
+import {useRouter} from "next/navigation"
 const Banner = () => {
     const router=useRouter();
   const handleBtn = () => {
