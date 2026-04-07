@@ -11,7 +11,6 @@ const DashboardLayout = ({children}) => {
         <Link className='py-2 px-4 w-full bg-gray-600' href={"/dashboard/my-profile"}>My Profile</Link>
         <Link  className='py-2 px-4 w-full bg-gray-600' href={"/dashboard/settings"}>Settings</Link>
 
-
         </div>
     </div>
     <div className='col-span-9'>{children}</div>
